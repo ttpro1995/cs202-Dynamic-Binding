@@ -50,6 +50,7 @@ int main(){
 	cout<<"Finished"<<endl;
 	return 0;
 }
+
 /*
 A constructor with1
 B constructor
@@ -59,6 +60,7 @@ A::doSth with2
 B::doSth with5
 A destructor
 A::doSth with7
+Finished
 A destructor
 B destructor
 A destructor
