@@ -50,7 +50,6 @@ int main(){
 	cout<<"Finished"<<endl;
 	return 0;
 }
-
 /*
 A constructor with1
 B constructor

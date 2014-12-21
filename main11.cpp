@@ -2,6 +2,7 @@
 using namespace std;
 class neutral1
 {
+public:
 neutral1()
 {
 cout<<"neutral1 constructor \n";
