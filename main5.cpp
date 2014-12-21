@@ -30,7 +30,7 @@ public:
 		cout<<"D: default construct	or"<<endl;
 	}
 	D(int k,int h):B(h){
-		cout<<"B: constructor with 2 argument"<<endl;
+		cout<<"D: constructor with 2 argument"<<endl;
 	}
 	D(const D& src){
 		cout<<"D: copy constructor"<<endl;
@@ -59,3 +59,18 @@ int main(){
 	cout<<"Finished"<<endl;
 	return 0;
 }
+
+/*
+Part A:
+B: constructor with 1 argument
+D: constructor with 2 argument
+B: default constructor
+D: copy constructor
+Part B
+D: do sth
+Finished
+D: destructor
+B: destructor
+D: destructor
+B: destructor
+*/
