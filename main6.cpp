@@ -51,6 +51,15 @@ int main(){
 	return 0;
 }
 /*
-
-
+A constructor with1
+B constructor
+A copy constructor
+A copy constructor
+A::doSth with2
+B::doSth with5
+A destructor
+A::doSth with7
+A destructor
+B destructor
+A destructor
 */
